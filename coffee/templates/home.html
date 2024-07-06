@@ -1,9 +1,12 @@
-{% extends 'base.html'%}
+{% extends 'base.html' %}
 
 {% block content %}
-    <h1>Breakfat coffee</h1>
+    <h1>Breakfast coffee</h1>
+    <div class="row">
+
 <ul>
     {% for coffee in coffee %}
+    <div class="me">
               <li>
                 {{ coffee.name}} (${{ coffee.price}})
               </li>
