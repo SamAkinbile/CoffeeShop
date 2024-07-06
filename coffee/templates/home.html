@@ -7,6 +7,14 @@
 <ul>
     {% for coffee in coffee %}
     <div class="me">
+      <div class="card" style="width: 18rem;">
+        <img src="{{ coffee.image }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ coffee.name }}</h5>
+          <p class="card-text">${{ coffee.price }}</p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div></div>
               <li>
                 {{ coffee.name}} (${{ coffee.price}})
               </li>
