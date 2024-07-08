@@ -1,3 +1,4 @@
+
 {% extends 'base.html' %}
 
 {% block content %}
@@ -19,4 +20,14 @@
               
 
 {% endfor %}
+<script>
+  $(document).on('click', '#add-cart', function(e){
+    e.preventDefault();
+    $.ajax({
+      type: 'POST',
+      url:
+      
+    });
+  })
+</script>
 {% endblock %}
