@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Checkout</h2>
+        
+        <!-- Coffee Items -->
+        <div class="mb-4">
+            <h4>Your Items</h4>
+            <ul class="list-group">
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Cappucinno
+                    <span class="badge badge-primary badge-pill">$5.49</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Hot Chololate
+                    <span class="badge badge-primary badge-pill">$6.99</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    American Coffee
+                    <span class="badge badge-primary badge-pill">$4.99</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    black Coffee
+                    <span class="badge badge-primary badge-pill">$3.45</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Ice Cream
+                    <span class="badge badge-primary badge-pill">$3.99</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Extra Marshmallow
+                    <span class="badge badge-primary badge-pill">$0.99</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Simple Toast
+                    <span class="badge badge-primary badge-pill">$5.25</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Exotic Panini Tatste
+                    <span class="badge badge-primary badge-pill">$7.66</span>
+                </li>
+                
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Tea
+                    <span class="badge badge-primary badge-pill">$5.99</span>
+                </li>
+                
+            </ul>
+        </div>
+        
+        <!-- Checkout Form -->
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Place Order</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
